@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<form role="form" action="" method="post" onsubmit="return validate(this);">
+        <label>Create New Post (140 char):</label>
+        <textarea name="posttext" id="posttext" class="form-control" rows="2" placeholder= "Express yourself!" maxlength="140"></textarea>
+        <div id="textarea_feedback"></div>
+        <input type="submit" value="Submit" id="submit"/>
+        <input type="reset" value="Clear"/>
+</form>
+
+<script src="scripts/myScript.js"></script>
+
+</body>
+</html>
